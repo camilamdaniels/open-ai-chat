@@ -130,6 +130,10 @@ body,
   background-image: none !important;
 }
 
+.login-input::placeholder {
+  color: $tertiary-50 !important;
+}
+
 /* Chat List */
 .server-channels {
   display: flex;
